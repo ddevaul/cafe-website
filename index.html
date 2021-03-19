@@ -8,39 +8,75 @@
     <title>Cafe</title>
 </head>
 <body>
-    <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-red-500 mb-3">
-        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
-            <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="#pablo">
-              Cafe
-            </a>
-            <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button">
-              <span class="block relative w-6 h-px rounded-sm bg-white"></span>
-              <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
-              <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
-            </button>
-          </div>
-          <div class="lg:flex flex-grow items-center" id="example-navbar-warning">
-            <ul class="flex flex-col lg:flex-row list-none ml-auto">
-                <li class="nav-item">
-                  <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                    Discover
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                    Profile
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                    Setting
-                  </a>
-                </li>
-            </ul>
+    <nav class="relative flex flex-wrap items-center justify-between px-2 py-2 navbar-expand-lg h-10 bg-yellow-500 ">
+          <ul class="flex flex-row justify-around w-full">
+            <li class="nav-item">
+              <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" href="#pablo">
+                Articles
+              </a>
+            </li>            
+            <li class="nav-item">
+              <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" href="#pablo">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" href="#pablo">
+                Contact
+              </a>
+            </li>
+          </ul>
+      </nav>
+      <div class="bg-yellow-500 h-60 flex flex-col items-center justify-center">
+        <h1 class="text-xl">Cafe</h1>
+        <p class="text-sm mt-2">For Artists</p>
+      </div>
+      <div>
+        <div class="p-8">
+          <div class="shadow-xl rounded-lg">
+            <div style="background-image: url('https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')" class="h-64 bg-gray-200 bg-cover bg-center rounded-t-lg flex items-center justify-center"> 
+              <p class="text-white font-bold text-4xl">Amazing Article</p>
+            </div>
+            <div class="bg-white rounded-b-lg px-8">
+              <div class="pt-8 pb-8">
+                <h1 class="text-2xl font-bold text-gray-700">Link</h1>
+                <p class="text-sm text-gray-600">From hyrule</p>
+                
+                <p class="mt-6 text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a sem varius, fringilla sapien at, sollicitudin risus.</p>
+                
+                <div class="flex justify-around mt-8">
+                  <i class="material-icons">chat</i>
+                  <i class="material-icons">duo</i>
+                  <i class="material-icons">location</i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    <h1>Cafe</h1>
+      </div>
+      <div class="bg-white p-6 shadow-lg rounded-lg flex justify-between items-center">
+        <div class="flex">
+          <div class="mr-4">
+             <img class="shadow sm:w-12 sm:h-12 w-14 h-14 rounded-full" src="http://tailwindtemplates.io/wp-content/uploads/2019/03/link.jpg" alt="Avatar" />
+          </div>
+          <div>
+            <h1 class="text-xl font-medium text-gray-700">Another awesome article</h1>
+            <p class="text-gray-600">UX Designer at Hyrule</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="bg-white p-6 shadow-lg rounded-lg flex justify-between items-center">
+        <div class="flex">
+          <div class="mr-4">
+             <img class="shadow sm:w-12 sm:h-12 w-14 h-14 rounded-full" src="http://tailwindtemplates.io/wp-content/uploads/2019/03/link.jpg" alt="Avatar" />
+          </div>
+          <div>
+            <h1 class="text-xl font-medium text-gray-700">A third awesome article</h1>
+            <p class="text-gray-600">UX Designer at Hyrule</p>
+          </div>
+        </div>
+
+      </div>
 </body>
 </html>
