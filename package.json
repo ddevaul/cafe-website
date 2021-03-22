@@ -15,7 +15,6 @@
     "url": "https://github.com/ddevaul/cafe-website/issues"
   },
   "homepage": "https://github.com/ddevaul/cafe-website#readme",
-  "description": "",
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.8",
@@ -23,5 +22,6 @@
   },
   "dependencies": {
     "postcss-cli": "^8.3.1"
-  }
+  },
+  "description": ""
 }
